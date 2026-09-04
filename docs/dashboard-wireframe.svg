@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1540" height="1120" viewBox="0 0 1540 1120">
+<rect width="1540" height="1120" fill="#f2f5fa"/>
+<text x="44" y="49" font-family="DejaVu Sans,sans-serif" font-size="23" fill="#21324d" font-weight="700">DAYLOG / DASHBOARD WIREFRAME</text>
+<text x="44" y="78" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#65758d" font-weight="400">Design 1.0 · Illustrative content only · Korean interface in the implementation</text>
+<text x="44" y="120" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#21324d" font-weight="700">DESKTOP · 3-column grid</text>
+<rect x="44" y="143" width="1040" height="785" fill="#fff" stroke="#dce3ed" rx="16"/>
+<rect x="44" y="143" width="183" height="785" fill="#172741" stroke="#172741" rx="16"/>
+<text x="67" y="190" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#ffffff" font-weight="700">daylog.</text>
+<rect x="57" y="230" width="155" height="41" fill="#315fea" stroke="#315fea" rx="8"/>
+<text x="73" y="257" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#ffffff" font-weight="500">Dashboard</text>
+<text x="73" y="311" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#bac9df" font-weight="500">Schedule</text>
+<text x="73" y="365" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#bac9df" font-weight="500">Todos</text>
+<text x="73" y="419" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#bac9df" font-weight="500">Routines</text>
+<text x="73" y="473" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#bac9df" font-weight="500">Memos</text>
+<text x="73" y="527" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#bac9df" font-weight="500">Bookmarks</text>
+<text x="73" y="581" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#bac9df" font-weight="500">Settings</text>
+<text x="67" y="878" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#bac9df" font-weight="400">My account</text>
+<text x="255" y="184" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#62768e" font-weight="700">FRIDAY, SEPTEMBER 4</text>
+<text x="255" y="225" font-family="DejaVu Sans,sans-serif" font-size="29" fill="#21324d" font-weight="700">Today, at a glance.</text>
+<rect x="893" y="183" width="164" height="40" fill="#f8faff" stroke="#dce3ed" rx="12"/>
+<text x="911" y="209" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#21324d" font-weight="400">Widget settings</text>
+<text x="255" y="257" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#65758d" font-weight="400">Your schedule, priorities, and everyday habits.</text>
+<rect x="255" y="285" width="802" height="93" fill="#fff" stroke="#dce3ed" rx="12"/>
+<text x="278" y="315" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#65758d" font-weight="400">Today’s events</text>
+<text x="278" y="353" font-family="DejaVu Sans,sans-serif" font-size="26" fill="#21324d" font-weight="700">3</text>
+<text x="543" y="315" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#65758d" font-weight="400">Open todos</text>
+<text x="543" y="353" font-family="DejaVu Sans,sans-serif" font-size="26" fill="#21324d" font-weight="700">5</text>
+<text x="808" y="315" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#65758d" font-weight="400">Routine progress</text>
+<text x="808" y="353" font-family="DejaVu Sans,sans-serif" font-size="26" fill="#21324d" font-weight="700">2 / 4</text>
+<text x="255" y="419" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#21324d" font-weight="700">MY DAY</text>
+<rect x="255" y="440" width="252" height="211" fill="#fff" stroke="#dce3ed" rx="12"/>
+<text x="271" y="468" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#21324d" font-weight="700">01 · TODAY’S SCHEDULE</text>
+<path d="M255 483h252" stroke="#e4e9f2"/>
+<text x="271" y="517" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#5e6e85" font-weight="400">09:00  Morning planning</text>
+<text x="271" y="552" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#5e6e85" font-weight="400">12:30  Lunch appointment</text>
+<text x="271" y="587" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#5e6e85" font-weight="400">18:00  Evening walk</text>
+<path d="M255 617h252" stroke="#e4e9f2"/>
+<text x="335" y="639" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#315fea" font-weight="400">+ Add item</text>
+<rect x="530" y="440" width="252" height="211" fill="#fff" stroke="#dce3ed" rx="12"/>
+<text x="546" y="468" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#21324d" font-weight="700">02 · TODOS</text>
+<path d="M530 483h252" stroke="#e4e9f2"/>
+<text x="546" y="517" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#5e6e85" font-weight="400">[ ]  Book a dentist visit</text>
+<text x="546" y="552" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#5e6e85" font-weight="400">[ ]  Order groceries</text>
+<text x="546" y="587" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#5e6e85" font-weight="400">[ ]  Review this week</text>
+<path d="M530 617h252" stroke="#e4e9f2"/>
+<text x="610" y="639" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#315fea" font-weight="400">+ Add item</text>
+<rect x="805" y="440" width="252" height="211" fill="#fff" stroke="#dce3ed" rx="12"/>
+<text x="821" y="468" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#21324d" font-weight="700">03 · ROUTINES</text>
+<path d="M805 483h252" stroke="#e4e9f2"/>
+<text x="821" y="517" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#5e6e85" font-weight="400">[x]  Drink water</text>
+<text x="821" y="552" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#5e6e85" font-weight="400">[x]  Read for 20 minutes</text>
+<text x="821" y="587" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#5e6e85" font-weight="400">[ ]  Stretch</text>
+<path d="M805 617h252" stroke="#e4e9f2"/>
+<text x="885" y="639" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#315fea" font-weight="400">+ Add item</text>
+<rect x="255" y="673" width="252" height="211" fill="#fff" stroke="#dce3ed" rx="12"/>
+<text x="271" y="701" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#21324d" font-weight="700">04 · MEMOS</text>
+<path d="M255 716h252" stroke="#e4e9f2"/>
+<text x="271" y="750" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#5e6e85" font-weight="400">Weekend ideas</text>
+<text x="271" y="785" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#5e6e85" font-weight="400">A short note goes here…</text>
+<text x="271" y="820" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#5e6e85" font-weight="400">Updated today</text>
+<path d="M255 850h252" stroke="#e4e9f2"/>
+<text x="335" y="872" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#315fea" font-weight="400">+ Add item</text>
+<rect x="530" y="673" width="252" height="211" fill="#fff" stroke="#dce3ed" rx="12"/>
+<text x="546" y="701" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#21324d" font-weight="700">05 · BOOKMARKS</text>
+<path d="M530 716h252" stroke="#e4e9f2"/>
+<text x="546" y="750" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#5e6e85" font-weight="400">Calendar   ↗</text>
+<text x="546" y="785" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#5e6e85" font-weight="400">Reading list   ↗</text>
+<text x="546" y="820" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#5e6e85" font-weight="400">Personal workspace   ↗</text>
+<path d="M530 850h252" stroke="#e4e9f2"/>
+<text x="610" y="872" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#315fea" font-weight="400">+ Add item</text>
+<rect x="805" y="673" width="252" height="211" fill="#f8faff" stroke="#dce3ed" rx="12"/>
+<text x="825" y="715" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#21324d" font-weight="700">LAYOUT RULES</text>
+<text x="825" y="748" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#62738b" font-weight="400">5 registered widget keys</text>
+<text x="825" y="777" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#62738b" font-weight="400">Up to 5 items per card</text>
+<text x="825" y="806" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#62738b" font-weight="400">Visibility + order per user</text>
+<text x="825" y="835" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#62738b" font-weight="400">Same order on mobile</text>
+<text x="1134" y="120" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#21324d" font-weight="700">MOBILE · 1 column</text>
+<rect x="1134" y="143" width="362" height="872" fill="#f6f8fc" stroke="#bac9dc" rx="23"/>
+<rect x="1135" y="144" width="360" height="97" fill="#172741" stroke="#172741" rx="22"/>
+<text x="1156" y="180" font-family="DejaVu Sans,sans-serif" font-size="24" fill="#fff" font-weight="700">daylog.</text>
+<text x="1156" y="220" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#cbd6e8" font-weight="400">Dashboard    Schedule    Todos  →</text>
+<text x="1156" y="278" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#21324d" font-weight="700">Today, at a glance.</text>
+<text x="1156" y="305" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#65758d" font-weight="400">FRI, SEP 4 · Seoul time</text>
+<rect x="1156" y="321" width="318" height="62" fill="#fff" stroke="#dce3ed" rx="12"/>
+<text x="1170" y="345" font-family="DejaVu Sans,sans-serif" font-size="11" fill="#65758d" font-weight="400">EVENTS</text>
+<text x="1170" y="370" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#21324d" font-weight="700">3</text>
+<rect x="1156" y="402" width="318" height="173" fill="#fff" stroke="#dce3ed" rx="12"/>
+<text x="1173" y="430" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#21324d" font-weight="700">01 · TODAY’S SCHEDULE</text>
+<text x="1173" y="468" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#62738b" font-weight="400">09:00  Morning planning</text>
+<text x="1173" y="501" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#62738b" font-weight="400">12:30  Lunch appointment</text>
+<path d="M1156 538h318" stroke="#e4e9f2"/>
+<text x="1270" y="562" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#315fea" font-weight="400">+ Add item</text>
+<rect x="1156" y="590" width="318" height="173" fill="#fff" stroke="#dce3ed" rx="12"/>
+<text x="1173" y="618" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#21324d" font-weight="700">02 · TODOS</text>
+<text x="1173" y="656" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#62738b" font-weight="400">[ ]  Book a dentist visit</text>
+<text x="1173" y="689" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#62738b" font-weight="400">[ ]  Order groceries</text>
+<path d="M1156 726h318" stroke="#e4e9f2"/>
+<text x="1270" y="750" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#315fea" font-weight="400">+ Add item</text>
+<rect x="1156" y="778" width="318" height="173" fill="#fff" stroke="#dce3ed" rx="12"/>
+<text x="1173" y="806" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#21324d" font-weight="700">03 · ROUTINES</text>
+<text x="1173" y="844" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#62738b" font-weight="400">[x]  Drink water</text>
+<text x="1173" y="877" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#62738b" font-weight="400">[x]  Read for 20 minutes</text>
+<path d="M1156 914h318" stroke="#e4e9f2"/>
+<text x="1270" y="938" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#315fea" font-weight="400">+ Add item</text>
+<text x="1156" y="989" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#65758d" font-weight="400">↓ Memos, then Bookmarks</text>
+<text x="44" y="972" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#21324d" font-weight="700">ORDER CONTRACT</text>
+<text x="44" y="1002" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#62738b" font-weight="400">Default: Schedule → Todos → Routines → Memos → Bookmarks</text>
+<text x="44" y="1030" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#62738b" font-weight="400">Widget settings: show/hide → move up/down → save the entire configuration</text>
+<text x="44" y="1080" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#6d7e94" font-weight="400">Wireframe reference — not an authenticated app screenshot or live user data.</text>
+<text x="1260" y="345" font-family="DejaVu Sans,sans-serif" font-size="11" fill="#65758d">TODOS</text><text x="1260" y="370" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="700" fill="#21324d">5</text><text x="1360" y="345" font-family="DejaVu Sans,sans-serif" font-size="11" fill="#65758d">ROUTINES</text><text x="1360" y="370" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="700" fill="#21324d">2 / 4</text></svg>
