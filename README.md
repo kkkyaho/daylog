@@ -16,6 +16,7 @@ Next.js App Router + React + TypeScript + Supabase PostgreSQL/Auth. Vercel 배�
 - 일정 CRUD와 오늘 구간 조회, Todo 우선순위·마감일·완료 관리
 - 반복 요일과 시작일을 가진 Routine, 날짜별 완료/취소
 - 일반 텍스트 Memo와 HTTP(S) Bookmark CRUD
+- 레시피 수동 저장, 웹페이지 구조화 데이터 분석, AI 보완 분석, GPT 검토 링크 가져오기
 - Dashboard 5개 위젯, 전체 건수, 당일 루틴 완료율, 표시·순서 저장
 - 기능별 30개 페이지 조회, Todo/일정 필터
 - 반응형 탐색과 화면, 로딩/빈 상태/오류 처리
@@ -37,6 +38,8 @@ npm ci
 NEXT_PUBLIC_SUPABASE_URL=https://YOUR_PROJECT.supabase.co
 NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=YOUR_PUBLISHABLE_KEY
 NEXT_PUBLIC_APP_URL=http://localhost:3000
+DAYLOG_IMPORT_API_KEY=외부_GPT_Action_인증용_긴_임의값
+DAYLOG_IMPORT_SIGNING_SECRET=검토_링크_서명용_긴_임의값
 ```
 
 Publishable key는 브라우저 사용을 전제로 하는 키이며 데이터 권한은 RLS가 제어합니다. **service_role 또는 secret key를 넣지 마세요.** 앱은 서비스 역할 키를 필요로 하지 않습니다. 환경변수가 없으면 `/setup` 안내가 표시되며 데이터를 가짜로 저장하지 않습니다.
@@ -92,6 +95,11 @@ Vercel에서 Add New Project → 해당 GitHub 저장소 Import → Framework Pr
 | NEXT_PUBLIC_SUPABASE_URL | Supabase 프로젝트 URL |
 | NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY | publishable key |
 | NEXT_PUBLIC_APP_URL | 실제 운영 주소, 마지막 `/` 없이 |
+| DAYLOG_IMPORT_API_KEY | 외부 GPT Action 요청을 인증할 비밀키 |
+| DAYLOG_IMPORT_SIGNING_SECRET | 레시피 검토 링크를 위조하지 못하게 서명할 비밀키 |
+| CALENDAR_TOKEN_ENCRYPTION_KEY | OAuth 토큰 암호화용 32자 이상의 임의 비밀값 |
+| GOOGLE_CALENDAR_CLIENT_ID / GOOGLE_CALENDAR_CLIENT_SECRET | Google OAuth 웹 앱 자격증명 |
+| MICROSOFT_CALENDAR_CLIENT_ID / MICROSOFT_CALENDAR_CLIENT_SECRET | Microsoft Entra OAuth 앱 자격증명 |
 
 Build Command는 `npm run build`, Install Command는 `npm ci`, Output Directory는 Next.js 기본 설정입니다. 별도 `vercel.json`은 필요하지 않습니다.
 
@@ -132,5 +140,8 @@ CI는 push/PR마다 설치 → 테스트 → 타입 검사 → 빌드를 수행�
 | src/components | 공통 UI·관리 폼 |
 | supabase/migrations | 데이터베이스 DDL·RLS |
 | tests | 날짜/입력/DB 권한 검증 |
+
+외부 GPT 연결 방법은 [ChatGPT 레시피 연결](docs/CHATGPT_RECIPE_ACTION.md)을 참고하세요.
+Google·Microsoft 일정 연결 방법은 [외부 캘린더 연결](docs/CALENDAR_INTEGRATIONS.md)을 참고하세요.
 
 저장소에는 사용자 데이터, 실제 키, node_modules, 빌드 산출물을 포함하지 않습니다.
