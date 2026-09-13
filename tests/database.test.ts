@@ -31,7 +31,8 @@ test('실제 migration의 제약과 A/B 사용자 RLS를 PostgreSQL 엔진에서
       routines: `insert into public.routines(user_id,title,weekdays) values ('${a}','루틴',array[0,1,2,3,4,5,6]::smallint[]) returning id`,
       memos: `insert into public.memos(user_id,title,body) values ('${a}','메모','내용') returning id`,
       bookmarks: `insert into public.bookmarks(user_id,title,url) values ('${a}','링크','https://example.com') returning id`,
-      recipes: `insert into public.recipes(user_id,title,ingredients,steps) values ('${a}','레시피','["재료"]','["조리"]') returning id`
+      recipes: `insert into public.recipes(user_id,title,ingredients,steps) values ('${a}','레시피','["재료"]','["조리"]') returning id`,
+      issue_notes: `insert into public.issue_notes(user_id,title,summary) values ('${a}','이슈','핵심 요약') returning id`
     };
     const ids: Record<string, string> = {};
     for (const [table, query] of Object.entries(fixtures)) {
